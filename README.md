@@ -1,3 +1,10 @@
+---
+mermaid: true
+mathjax: true
+title: Example - Github Webpage
+---
+
+
 # Page_Example
 
 ## This will show as a Web-page
@@ -19,3 +26,9 @@ import pandas as pd
 x = np.cos(np.pi/3)
 ```
 
+```mermaid
+graph LR;
+A-->B
+B-->C
+A-->C
+```
